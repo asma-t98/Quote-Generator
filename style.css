@@ -1,0 +1,57 @@
+body{
+    background: url(https://parade.com/wp-content/uploads/2019/10/inspiring-motivational-quotes.jpg);
+background-size: cover;
+}
+button{
+    size: initial;
+}
+.quoteContainer{
+    width: 419px;
+    height: 220px;
+    background-color: #ae765cd4;
+    position: relative;
+    border-radius: 30px;
+    text-shadow: 4px 3px 9px #fec987;
+    box-shadow: 5px 1px 6px 2px #5a463b;
+    font-style: italic;
+    left: 270px;
+    top: 130px
+
+}
+h1{
+    color: wheat;
+    font-size: 35px;
+    margin: 20px;
+}
+#quoteDisplay{
+    font-family: cursive;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+}
+.openingQuotes{
+    position: inherit;
+    left: 15px;
+    top: 11px;
+}
+.closingQuotes{
+    position: absolute;
+    left: 335px;
+    top: 160px;
+}
+button{
+    position: absolute;
+    left: 430px;
+    top: 389px;
+    width: 115px;
+    height: 40px;
+    background-color: #fff9c47a;
+    font-family: monospace;
+    font-size: large;
+    border: none;
+    border: solid 1px;
+    cursor: pointer;
+    box-shadow: 2px 0px 6px 0px black;
+    color: #4E342E;
+    border-radius: 8px;
+}
